@@ -26,11 +26,10 @@ then
     echo -e "+--------------------------------------------------+$NN"
     echo
 
-    git clone --branch $BRANCH --recurse-submodules https://github.com/sigilodigital/ikhon-psd-api-config-gerais ./api-config-gerais && \
-    git clone --branch $BRANCH --recurse-submodules https://github.com/sigilodigital/ikhon-psd-api-dados-gerais ./api-dados-gerais && \
-    git clone --branch $BRANCH --recurse-submodules https://github.com/sigilodigital/ikhon-psd-api-gestao-acesso ./api-gestao-acesso && \
-    git clone --branch $BRANCH --recurse-submodules https://github.com/sigilodigital/ikhon-psd-api-gestao-tomador-servicos ./api-gestao-tomador-servicos && \
-    git clone --branch $BRANCH --recurse-submodules https://github.com/sigilodigital/ikhon-psd-portal-front ./portal-front
+    git clone --branch $BRANCH --recurse-submodules https://github.com/sigilodigital/qg-gestao-acesso-api ./qg-gestao-acesso-api && \
+    # git clone --branch $BRANCH --recurse-submodules https://github.com/sigilodigital/qg-config-gerais-api ./qg-config-gerais-api && \
+    # git clone --branch $BRANCH --recurse-submodules https://github.com/sigilodigital/qg-dados-gerais-api ./qg-dados-gerais-api && \
+    # git clone --branch $BRANCH --recurse-submodules https://github.com/sigilodigital/qg-portal-front ./qg-portal-front
 
     exit 0
 fi
